@@ -1,0 +1,101 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: primary;
+    src: url(/assets/fonts/AmaticSC-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: secondary;
+    src: url(/assets/fonts/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+.font-family-primary{
+    font-family: 'primary',sans-serif;
+    letter-spacing: 2px;
+}
+
+.font-family-secondary{
+    font-family: 'secondary',sans-serif;    
+}
+
+.container{
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.d-flex{
+
+    display: flex;
+}
+
+.flex-wrap{
+
+    flex-wrap: wrap;
+}
+
+.flex-direction-column{
+
+    flex-direction: column;
+}
+
+.justify-content-center{
+
+    justify-content: center;
+}
+
+.justify-content-between{
+
+    justify-content: space-between;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.margin-top-20{
+
+    margin-top: 20px;
+}
+
+.margin-top-10{
+
+    margin-top: 10px;
+}
+
+.col-12{
+
+    width: 100%;
+}
+
+.col-8{
+
+    width: 66.66%;
+}
+
+.col-6{
+
+    width: 50%;
+}
+
+.col-4{
+
+    width: 33.33%;
+}
+
+.col-3{
+
+    width: 25%;
+}
