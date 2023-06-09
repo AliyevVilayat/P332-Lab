@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "primary-font";
+  src: url(../../fonts/Sen-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-content-center {
+  justify-content: center;
+}
+
+.j-content-between {
+  justify-content: space-between;
+}
+
+.al-item-center {
+  align-items: center;
+}
+
+.m-lr-20 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #eb5757;
+  border: 1px solid black;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 10px 20px;
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav ul li span {
+  display: none;
+}
+nav ul li div {
+  display: none;
+}
+nav ul li:hover {
+  background-color: black;
+  border-radius: 5px;
+}
+nav ul li:hover span {
+  display: block;
+}
+nav ul li:hover span i {
+  color: #ffffff;
+}
+nav ul li:hover div {
+  display: block;
+}
+
+.drop-down {
+  top: 100%;
+  left: -50%;
+}
+
+main {
+  width: 100%;
+  background-color: #eb5757;
+  height: 1000px;
+}
+
+section#hero-section {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  padding: 100px 0;
+}/*# sourceMappingURL=style.css.map */
