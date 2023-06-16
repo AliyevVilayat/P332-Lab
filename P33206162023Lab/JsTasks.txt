@@ -1,0 +1,38 @@
+1. Rock,Paper and Scissors
+Istifadeci yuxaridaki elementlerden 1-ni daxil etmelidir.
+Ve reqibimizin cavabina uygun olaraq ekrana kimin qalib oldugu, sizin ve reqibin cavabi ekrana cixmalidir.
+BUTUN SERTLER YOXLANILMALIDIR.
+let num = Math.floor(Math.random() * 3);
+
+Das>qayci
+Das<kagiz
+kagiz>das
+kagiz<qayci
+qayci>kagiz
+qayci<das
+
+
+
+2.Temprator Converter
+Istifadeciden Faranheyt ve ya Selsi bunlardan hansinin daxil edeceyi oyrenilmelidir.
+Daxil edilen olcu vahidine uygun olaraq hesablanma aparilaraq diger olcu vahidinde cavab qayitsin.
+
+Celcius to Fahranheit --> C * 9 / 5 +32 = F
+Fahranheit to Celcius --> (F - 32) * 5 / 9 = C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
